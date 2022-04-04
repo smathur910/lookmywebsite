@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar_nav {
+    box-shadow: -8px 9px 20px 6px rgb(0 0 0 / 22%);
+}
+
+#header_banner {
+    height: 450px;
+    overflow: hidden;
+}
+
+.card-item {
+    border: 3px solid;
+    border-radius: 5px;
+    text-align: center;
+    height: 200px;
+    box-shadow: -8px 9px 0px 0px #e1523d;
+}
+
+.banner-img-subs {
+    height: 400px;
+    overflow: hidden;
+}
+
+
+.banner-img-subs img {
+    width: 100%;
+}
+
+.subs-containt {
+
+    background: #E1523D;
+    height: 400px;
+    padding: 10% 10%;
+
+}
+
+.subs-containt h4{
+    color: #fff;
+}
+.subs-containt input{
+    border-radius: 10px 0 0 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.subs-containt .submit-btn{
+    background-color: #003547 !important;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+}
+
+.footer .menu_links{
+    list-style: none;
+    padding: 0;
+}
+.social-icons a{
+    margin-left: 10px;
+}
+
+.custom_mt{
+    margin-top: 5%;
+}
